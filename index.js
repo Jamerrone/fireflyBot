@@ -1,5 +1,5 @@
 const axios = require('axios');
-const firefly = require('./src/commands/shared');
+const firefly = require('./firefly/commands/shared');
 
 async function getFile(url) {
   try {
