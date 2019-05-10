@@ -1,0 +1,54 @@
+{
+  "name": "fireflyBot",
+  "version": "1.0.0",
+  "description": "A CSS Support Validator 🤖 for GitHub.",
+  "author": "James Peter Perrone Jefferies <james.p.perrone@protonmail.com>",
+  "license": "ISC",
+  "repository": "https://github.com/Jamerrone/fireflyBot.git",
+  "homepage": "https://github.com/Jamerrone/fireflyBot",
+  "bugs": "https://github.com/Jamerrone/fireflyBot/issues",
+  "keywords": [
+    "browser-compatibility",
+    "css",
+    "github",
+    "mdn-data",
+    "probot-app",
+    "probot",
+    "validation"
+  ],
+  "scripts": {
+    "dev": "nodemon",
+    "start": "probot run ./index.js",
+    "lint": "standard --fix",
+    "test": "jest && standard",
+    "test:watch": "jest --watch --notify --notifyMode=change --coverage"
+  },
+  "dependencies": {
+    "probot": "^7.2.0"
+  },
+  "devDependencies": {
+    "jest": "^24.0.0",
+    "nock": "^10.0.0",
+    "nodemon": "^1.17.2",
+    "smee-client": "^1.0.2",
+    "standard": "^12.0.1"
+  },
+  "engines": {
+    "node": ">= 8.3.0"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "nodemonConfig": {
+    "exec": "npm start",
+    "watch": [
+      ".env",
+      "."
+    ]
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
