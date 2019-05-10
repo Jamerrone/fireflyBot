@@ -1,0 +1,8 @@
+{
+  "properties": {
+    "flex-basis": {
+      "alternatives": ["float"],
+      "notes": null
+    }
+  }
+}

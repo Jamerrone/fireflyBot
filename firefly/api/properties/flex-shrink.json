@@ -1,0 +1,8 @@
+{
+  "properties": {
+    "flex-shrink": {
+      "alternatives": ["float"],
+      "notes": null
+    }
+  }
+}

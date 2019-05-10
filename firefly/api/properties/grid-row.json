@@ -1,0 +1,8 @@
+{
+  "properties": {
+    "grid-row": {
+      "alternatives": ["flex", "float"],
+      "notes": null
+    }
+  }
+}

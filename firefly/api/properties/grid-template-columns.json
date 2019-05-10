@@ -1,0 +1,8 @@
+{
+  "properties": {
+    "grid-template-columns": {
+      "alternatives": ["flex", "float"],
+      "notes": null
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "properties": {
+    "flex-flow": {
+      "alternatives": ["float"],
+      "notes": null
+    }
+  }
+}

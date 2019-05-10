@@ -1,0 +1,8 @@
+{
+  "properties": {
+    "grid-column-end": {
+      "alternatives": ["flex", "float"],
+      "notes": null
+    }
+  }
+}

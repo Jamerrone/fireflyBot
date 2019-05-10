@@ -1,0 +1,100 @@
+{
+  "properties": {
+    "flex-basis": {
+      "alternatives": ["float"],
+      "notes": null
+    },
+    "flex-direction": {
+      "alternatives": ["float"],
+      "notes": null
+    },
+    "flex-flow": {
+      "alternatives": ["float"],
+      "notes": null
+    },
+    "flex-grow": {
+      "alternatives": ["float"],
+      "notes": null
+    },
+    "flex-shrink": {
+      "alternatives": ["float"],
+      "notes": null
+    },
+    "flex-wrap": {
+      "alternatives": ["float"],
+      "notes": null
+    },
+    "flex": {
+      "alternatives": ["float"],
+      "notes": null
+    },
+    "grid-area": {
+      "alternatives": ["flex", "float"],
+      "notes": null
+    },
+    "grid-auto-columns": {
+      "alternatives": ["flex", "float"],
+      "notes": null
+    },
+    "grid-auto-flow": {
+      "alternatives": ["flex", "float"],
+      "notes": null
+    },
+    "grid-auto-rows": {
+      "alternatives": ["flex", "float"],
+      "notes": null
+    },
+    "grid-column-end": {
+      "alternatives": ["flex", "float"],
+      "notes": null
+    },
+    "grid-column-start": {
+      "alternatives": ["flex", "float"],
+      "notes": null
+    },
+    "grid-column": {
+      "alternatives": ["flex", "float"],
+      "notes": null
+    },
+    "grid-row-end": {
+      "alternatives": ["flex", "float"],
+      "notes": null
+    },
+    "grid-row-start": {
+      "alternatives": ["flex", "float"],
+      "notes": null
+    },
+    "grid-row": {
+      "alternatives": ["flex", "float"],
+      "notes": null
+    },
+    "grid-template-areas": {
+      "alternatives": ["flex", "float"],
+      "notes": null
+    },
+    "grid-template-columns": {
+      "alternatives": ["flex", "float"],
+      "notes": null
+    },
+    "grid-template-rows": {
+      "alternatives": ["flex", "float"],
+      "notes": null
+    },
+    "grid-template": {
+      "alternatives": ["flex", "float"],
+      "notes": null
+    },
+    "grid": {
+      "alternatives": ["flex", "float"],
+      "notes": null
+    },
+    "object-fit": {
+      "alternatives": [["background-size", "background-image"]],
+      "notes": "You could also try cropping the image."
+    },
+    "object-position": {
+      "alternatives": [["background-position", "background-image"]],
+      "notes": "You could also try cropping the image."
+    }
+  }
+}

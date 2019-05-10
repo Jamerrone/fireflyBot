@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A CSS Support Validator 🤖 for GitHub.",
   "author": "James Peter Perrone Jefferies <james.p.perrone@protonmail.com>",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "repository": "https://github.com/Jamerrone/fireflyBot.git",
   "homepage": "https://github.com/Jamerrone/fireflyBot",
   "bugs": "https://github.com/Jamerrone/fireflyBot/issues",
@@ -18,28 +18,24 @@
   ],
   "scripts": {
     "dev": "nodemon",
-    "start": "probot run ./index.js",
-    "lint": "standard --fix",
-    "test": "jest && standard",
-    "test:watch": "jest --watch --notify --notifyMode=change --coverage"
+    "start": "probot run ./index.js"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "browserslist": "^4.5.6",
+    "cosmiconfig": "^5.2.0",
+    "css-tree": "^1.0.0-alpha.29",
     "probot": "^7.2.0"
   },
   "devDependencies": {
-    "jest": "^24.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-xo-space": "^0.21.0",
     "nock": "^10.0.0",
     "nodemon": "^1.17.2",
-    "smee-client": "^1.0.2",
-    "standard": "^12.0.1"
+    "smee-client": "^1.0.2"
   },
   "engines": {
     "node": ">= 8.3.0"
-  },
-  "standard": {
-    "env": [
-      "jest"
-    ]
   },
   "nodemonConfig": {
     "exec": "npm start",
@@ -47,8 +43,5 @@
       ".env",
       "."
     ]
-  },
-  "jest": {
-    "testEnvironment": "node"
   }
 }

@@ -1,0 +1,8 @@
+{
+  "properties": {
+    "flex-grow": {
+      "alternatives": ["float"],
+      "notes": null
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "properties": {
+    "flex-wrap": {
+      "alternatives": ["float"],
+      "notes": null
+    }
+  }
+}

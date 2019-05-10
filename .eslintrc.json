@@ -1,0 +1,10 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "extends": "xo-space/esnext",
+  "parserOptions": {
+    "ecmaVersion": 2018
+  }
+}

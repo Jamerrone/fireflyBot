@@ -1,0 +1,8 @@
+{
+  "properties": {
+    "grid-area": {
+      "alternatives": ["flex", "float"],
+      "notes": null
+    }
+  }
+}
